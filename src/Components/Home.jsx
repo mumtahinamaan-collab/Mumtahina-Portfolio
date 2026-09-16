@@ -18,18 +18,13 @@ const Hero = () => {
               Hi, I'm
             </p>
 
-            <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold leading-tight">
+            <h1 className="text-6xl sm:text-6xl lg:text-7xl font-bold leading-tight">
               <span className="text-cyan-400">Mumtahina</span>
             </h1>
 
-            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-semibold mt-2">
-              Full Stack Developer
-            </h2>
-
             <p className="text-gray-300 text-sm sm:text-base lg:text-lg leading-relaxed max-w-xl mx-auto lg:mx-0 mt-5">
-              I build modern, scalable and user-friendly web applications
-              using Django and React. I love turning ideas into real
-              products and solving problems through code.
+              Full Stack Web Developer.I design and build modern web applications using Python, Django, React, and REST APIs — from database and backend logic to responsive frontend and deployment.
+
             </p>
 
             {/* Buttons */}
