@@ -32,7 +32,7 @@ const skills = [
       { name: "Django", icon: <SiDjango /> },
       { name: "Django REST Framework", icon: <SiDjango /> },
       { name: "REST APIs", icon: "⚡" },
-      { name: "JWT Authentication", icon: "🔐" },
+      { name: "API Integration", icon: "↔" },
     ],
   },
   {
@@ -49,28 +49,28 @@ const skills = [
     skills: [
       { name: "Git", icon: <FaGitAlt /> },
       { name: "GitHub", icon: <FaGithub /> },
-      { name: "Postman", icon: <SiPostman /> },
-      { name: "VS Code", icon: "⌘" },
-    ],
-  },
-  {
-    title: "Deployment",
-    skills: [
       { name: "Vercel", icon: <SiVercel /> },
       { name: "Render", icon: <SiRender /> },
-      { name: "Environment Variables", icon: "⚙" },
-      { name: "API Integration", icon: "↔" },
     ],
   },
   {
-    title: "AI & Development",
-    skills: [
-      { name: "Sentence Transformers", icon: "AI" },
-      { name: "NLP", icon: "N" },
-      { name: "Semantic Similarity", icon: "∼" },
-      { name: "Responsive Design", icon: "▤" },
-    ],
-  },
+  title: "Authentication & Security",
+  skills: [
+    { name: "Clerk", icon: "C" },
+    { name: "JWT Authentication", icon: "🔐" },
+    { name: "Authentication", icon: "🔑" },
+    { name: "Authorization", icon: "🛡️" },
+  ],
+},
+  {
+  title: "AI & Development",
+  skills: [
+    { name: "NLP", icon: "N" },
+    { name: "Text Embeddings", icon: "E" },
+    { name: "Responsive Design", icon: "▤" },
+    { name: "AI-Assisted Development", icon: "AI" },
+  ],
+},
 ];
 
 const Skills = () => {
